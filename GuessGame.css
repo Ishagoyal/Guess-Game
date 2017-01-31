@@ -2,17 +2,28 @@ body{
 align-items:center;
 justify-content:center;
 padding:40px;
+margin:120px;
+border:2px solid black;
+background:url("http://ubistatic19-a.akamaihd.net/resource/en-GB/game/rainbow6/siege/r6-siege-bg.jpg");
+background-size: 1400px 800px;
+background-repeat: no-repeat;
 }
 
 h2{
  text-align:center;
+ color:#fff;
 }
 p{
 text-align:center;
+color:#fff;
+}
 
+h4{
+color:#fff;
 }
 
 .container{
-
+padding:40px;
 text-align:center;
 }
+
