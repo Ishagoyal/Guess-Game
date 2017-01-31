@@ -19,8 +19,6 @@ function startGame(){
 	 
 	 checkGuess();
 	 
- 
-  
 
 }
 
@@ -57,4 +55,13 @@ function checkGuess(){
 	 
    }
    
+}
+
+function resetGame(){
+guessCount=0;
+  randomNumber=Math.random() * 100;
+  randomNumberInteger= Math.floor(randomNumber);
+  target=randomNumberInteger + 1;
+	   document.getElementById("number").value="";
+
 }

@@ -27,11 +27,11 @@ padding:40px;
 text-align:center;
 }
 
-#ok{
+#ok, #reset{
 background-color:skyblue;
 }
 
-#ok:hover{
+#ok:hover,#reset:hover{
   
   outline:none;
   color:white;
